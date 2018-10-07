@@ -3,6 +3,9 @@ package test.test1;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Car car = new Car.Builder().color( "red" ).build();
+        System.out.println(car);
+
     }
 }
